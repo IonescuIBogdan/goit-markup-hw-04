@@ -1,0 +1,310 @@
+:root {
+    --link-color: #2E2F42;
+    --social-link-color: #000000;
+    --link-color_hover: #ff6c00;
+    --heading-font-family: "Roboto , Raleway", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+  }
+
+  * {
+    font-family: var(--text-font-family);
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  /* styles pentru index.html */
+
+  .header .container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E7E9FC;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .footer .container {
+    justify-content: left;
+    border-top: 1px solid #E7E9FC;
+    background-color: #2E2F42;
+    width:1200px;
+  }
+
+  .logo {
+    display: flex;
+    width: 115px;
+    height: 24px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .left-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #4d5ae5;
+  }
+
+  .right-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #F4F4FD;
+  }
+
+  .after-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4FD;
+    justify-content: left;
+  }
+
+  .left-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #4d5ae5;
+  }
+
+  .right-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #2E2F42;
+  }
+
+  .nav-clas {
+    display: flex;
+    width: 261px;
+    height: 24px;
+    justify-content: space-between;
+    margin-right: 332px;
+  }
+
+  .studio-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+  .portofolio-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+  .contacts-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+.contacts-mail {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+    width: 153px;
+    height: 24px;
+}
+
+.contacts-tel {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2E2F42;
+  width: 151px;
+  height: 24px;
+  justify-content: right;
+}
+
+.hero-section-ul {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .container {
+    background-color: #2E2F42;
+    display: flex;
+    padding: 94px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.effective-solutions {
+    width: 496px;
+    height: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.buton-order-service {
+    width: 169px;
+    height: 56px;
+    background-color:#4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.our-goals-container {
+  display: flex;
+  padding: 94px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-goals-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.o-g-description-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.card-images .container {
+  padding: 94px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.c-i-clasa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-images-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.our-team-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team .container {
+  padding: 94px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.our-team-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.o-t-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.our-team {
+  background-color: #F4F4FD;
+}
+
+.our-goals {
+  display: flex;
+  justify-content: center;
+  padding: 94 0;
+}
+
+.footer-container {
+  width: 264px;
+}
+
+/* styles pentru portofolio.html */
+
+.filters {
+  padding: 94px 0;
+  align-items: center;
+}
+
+.filter-butons {
+  display: flex;
+}
+
+.filterall {
+    background-color:#404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.filterbuton {
+    background-color:#E7E9FC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D5AE5;
+    margin-right: 24px;
+}
+
+.firstcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
+}
+
+.secondcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
+}
+
+.thirdcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
+}
+
+.firstcard-clas-h {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.firstcard-clas-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+/* alte clase */
+
+.container {
+  width:1200px;
+}
+
+.container:not(:first-child):not(:last-child) {
+  padding: 94px 0;
+}
