@@ -1,7 +1,7 @@
 :root {
     --link-color: #2E2F42;
     --social-link-color: #000000;
-    --link-color_hover: #ff6c00;
+    --link-color_hover: #404bbf;
     --heading-font-family: "Roboto , Raleway", sans-serif;
     --text-font-family: "Roboto", sans-serif;
   }
@@ -25,11 +25,14 @@
     box-sizing: border-box;
   }
 
+  .footer {
+    background-color: #2E2F42;
+  }
+
   .footer .container {
     justify-content: left;
     border-top: 1px solid #E7E9FC;
-    background-color: #2E2F42;
-    width:1200px;
+    
   }
 
   .logo {
@@ -38,6 +41,10 @@
     height: 24px;
     margin-left: 0;
     justify-content: center;
+  }
+
+  .logo:hover {
+    color: #404BBF;
   }
 
   .left-logo-footer {
@@ -91,6 +98,10 @@
     color: #2E2F42;
   }
 
+  .studio-clas:hover {
+    color: #404BBF;
+  }
+
   .portofolio-clas {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -98,11 +109,27 @@
     color: #2E2F42;
   }
 
+  .portofolio-clas:hover {
+    color: #404BBF;
+  }
+
   .contacts-clas {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #2E2F42;
+  }
+
+  .contacts-clas:hover {
+    color: #404BBF;
+  }
+
+  .adress {
+    display: flex;
+  }
+
+  .adress li:hover {
+    color: #404BBF;
   }
 
 .contacts-mail {
@@ -113,6 +140,10 @@
     color: #2E2F42;
     width: 153px;
     height: 24px;
+}
+
+.contacts-mail:hover {
+  color: #404BBF;
 }
 
 .contacts-tel {
@@ -126,17 +157,28 @@
   justify-content: right;
 }
 
+.contacts-tel:hover {
+  color: #404BBF;
+}
+
+.hero-section {
+  background-color: #2E2F42;
+}
+
 .hero-section-ul {
   align-items: center;
   justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .hero-section .container {
-    background-color: #2E2F42;
     display: flex;
     padding: 94px 0;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .effective-solutions {
@@ -146,7 +188,6 @@
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
-    text-align: center;
 }
 
 .buton-order-service {
@@ -157,6 +198,11 @@
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+    padding: 16px, 32px, 16px, 32px;
+}
+
+.buton-order-service:hover {
+  background-color: #404BBF;
 }
 
 .our-goals-container {
@@ -189,6 +235,26 @@
 .c-i-clasa {
   display: flex;
   justify-content: space-between;
+}
+
+.team-card1 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.team-card2 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.team-card3 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.team-card4 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-images-clas {
@@ -242,29 +308,89 @@
 
 .filters {
   padding: 94px 0;
-  align-items: center;
 }
 
 .filter-butons {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .filterall {
+    width: 69px;
+    height: 48px;
     background-color:#404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
     margin-right: 24px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.filterall:hover {
+  background-color: #404BBF;
 }
 
 .filterbuton {
+    width: 116px;
+    height: 48px;
     background-color:#E7E9FC;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #4D5AE5;
     margin-right: 24px;
+}
+
+.filterbuton:hover {
+  background-color: #404BBF;
+}
+
+.filterbuton1 {
+  width: 78px;
+  height: 48px;
+  background-color:#E7E9FC;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4D5AE5;
+  margin-right: 24px;
+}
+
+.filterbuton1:hover {
+background-color: #404BBF;
+}
+
+.filterbuton2 {
+  width: 101px;
+  height: 48px;
+  background-color:#E7E9FC;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4D5AE5;
+  margin-right: 24px;
+}
+
+.filterbuton2:hover {
+background-color: #404BBF;
+}
+
+.filterbuton3 {
+  width: 126px;
+  height: 48px;
+  background-color:#E7E9FC;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4D5AE5;
+  margin-right: 24px;
+}
+
+.filterbuton3:hover {
+background-color: #404BBF;
 }
 
 .firstcard-clas {
@@ -302,7 +428,9 @@
 /* alte clase */
 
 .container {
-  width:1200px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container:not(:first-child):not(:last-child) {
