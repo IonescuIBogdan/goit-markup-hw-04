@@ -162,7 +162,7 @@
 }
 
 .hero-section {
-  background-color: #2E2F42;
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url("/images/people-office.jpg");
 }
 
 .hero-section-ul {
