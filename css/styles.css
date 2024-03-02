@@ -265,22 +265,22 @@
 }
 
 .o-g-class::before {
-  content: url("/icons/antenna.svg");
+  content: url("../icons/antenna.svg");
   display: block;
 }
 
 .o-g-class1::before {
-  content: url("/icons/clock.svg");
+  content: url("../icons/clock.svg");
   display: block;
 }
 
 .o-g-class2::before {
-  content: url("/icons/diligence.svg");
+  content: url("../icons/diligence.svg");
   display: block;
 }
 
 .o-g-class3::before {
-  content: url("/icons/technologies.svg");
+  content: url("../icons/technologies.svg");
   display: block;
 }
 
