@@ -381,6 +381,7 @@
   display:flex;
   gap: 24px;
   margin-bottom: 94px;
+  margin-top: 94px;
 }
 
 .card-customers-clas {
