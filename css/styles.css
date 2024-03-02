@@ -216,7 +216,7 @@
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(25, 28, 38, 0.4), rgba(25, 28, 38, 0.4)), url("/images/people-office.png");
+  background-image: linear-gradient(rgba(25, 28, 38, 0.4), rgba(25, 28, 38, 0.4)), url("../images/people-office.png");
   background-size: cover;
 }
 
@@ -390,33 +390,33 @@
 }
 
 .client1::after {
-  content: url("/icons/Client1.svg");
+  content: url("../icons/Client1.svg");
   display: block;
   margin-left: 24px;
 }
 
 .client2::after {
-  content: url("/icons/Client2.svg");
+  content: url("../icons/Client2.svg");
   display: block;
 }
 
 .client3::after {
-  content: url("/icons/Client3.svg");
+  content: url("../icons/Client3.svg");
   display: block;
 }
 
 .client4::after {
-  content: url("/icons/Client4.svg");
+  content: url("../icons/Client4.svg");
   display: block;
 }
 
 .client5::after {
-  content: url("/icons/Client5.svg");
+  content: url("../icons/Client5.svg");
   display: block;
 }
 
 .client6::after {
-  content: url("/icons/Client6.svg");
+  content: url("../icons/Client6.svg");
   display: block;
 }
 
